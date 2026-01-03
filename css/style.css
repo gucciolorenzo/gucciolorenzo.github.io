@@ -35,7 +35,7 @@ body {
     padding-bottom: 120px; 
     
     /* CORREZIONE 3: Ho spostato i colori e i font qui, ma tolto il width 90% */
-    color: #D4AF37; 
+    color: #d3b245; 
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -100,13 +100,13 @@ body {
     font-weight: 300;
     letter-spacing: 2px;
     margin-bottom: 15px;
-    color: #D4AF37; /* Nero morbido */
+    color: #d3b245; /* Nero morbido */
 }
 
 .section-title .line {
     width: 60px;
     height: 2px;
-    background-color: #D4AF37; /* Lo stesso Oro della Hero */
+    background-color: #d3b245; /* Lo stesso Oro della Hero */
     margin: 0 auto;
 }
 
@@ -147,14 +147,14 @@ body {
 .product-card p {
     font-family: 'Times New Roman', serif;
     font-size: 0.6rem;
-    color: #D4AF37; /* Prezzo Oro */
+    color: #d3b245; /* Prezzo Oro */
 
 }
 /* --- STILE BOTTONE ACQUISTA (SHOP) --- */
 .product-card .btn-shop {
     /* Forza il colore Oro, dato che siamo dentro una scheda bianca */
-    color: #D4AF37;
-    border-color: #D4AF37;
+    color: #d3b245;
+    border-color: #d3b245;
     
     /* Aggiunge spazio sopra il bottone */
     margin-top: 15px;
@@ -177,14 +177,14 @@ body {
     top: 25px;
     left: 25px;
     font-size: 20px; /* Grandezza icone */
-    color: #D4AF37;    /* Colore bianco per vedersi sullo sfondo scuro */
+    color: #d3b245;    /* Colore bianco per vedersi sullo sfondo scuro */
     cursor: pointer;
     z-index: 100;    /* Deve stare sopra allo sfondo */
     transition: color 0.3s;
 }
 
 .menu-icon:hover {
-    color: #D4AF37; /* Diventa oro se ci passi sopra col mouse */
+    color: #d3b245; /* Diventa oro se ci passi sopra col mouse */
 }
 
 /* 2. La scatola del menu (Nascosta inizialmente) */
@@ -214,7 +214,7 @@ body {
 
 .sidebar h2 {
     font-family: 'Times New Roman', serif;
-    color: #D4AF37;
+    color: #d3b245;
     font-size: 1.5rem;
     margin-bottom: 10px;
     letter-spacing: 2px;
@@ -223,7 +223,7 @@ body {
 .sidebar .line {
     width: 40px;
     height: 2px;
-    background-color: #D4AF37;
+    background-color: #d3b245;
     margin: 0 auto 30px auto;
 }
 
@@ -233,7 +233,7 @@ body {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     font-size: 1rem;
-    color: #D4AF37;
+    color: #d3b245;
     display: block; /* Ognuno su una riga */
     font-family: 'Times New Roman', serif;
     transition: 0.3s;
@@ -247,7 +247,7 @@ body {
     right: 0px;
     font-size: 36px;
     margin-left: 0px;
-    color: #D4AF37;
+    color: #d3b245;
     text-decoration: none;
 }
 
