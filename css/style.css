@@ -55,7 +55,7 @@
 /* --- SCRITTA FISSA (WATERMARK) - MOBILE FIRST --- */
 .fixed-brand {
     position: fixed;
-    top: calc(21px + env(safe-area-inset-top));
+    top: 21px;
     right: 20px;          /* Spaziatura Mobile */
     
     z-index: 1000;
@@ -267,7 +267,7 @@ body {
 /* --- MENU LATERALE (HAMBURGER) --- */
 .menu-icon {
     position: fixed;
-    top: calc(20px + env(safe-area-inset-top));
+    top: 20px;
     left: 25px;
     font-size: 20px;
     color: var(--main-gold);
@@ -341,7 +341,7 @@ body {
 /* --- ICONA HOME (CASETTA) --- */
 .home-icon {
     position: fixed;
-    top: calc(20px + env(safe-area-inset-top));
+    top: 20px;
     left: 25px;
     width: 25px;
     height: 25px;
