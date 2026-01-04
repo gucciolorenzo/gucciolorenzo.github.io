@@ -251,3 +251,24 @@ body {
     text-decoration: none;
 }
 
+/* --- ICONA HOME (CASETTA) --- */
+.home-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;       /* Posizione: in alto a sinistra */
+    width: 25px;      /* Larghezza */
+    height: 25px;     /* Altezza */
+    
+    color: #D4AF37;   /* Il tuo colore ORO */
+    
+    z-index: 1000;    /* Assicura che stia sopra lo sfondo */
+    transition: transform 0.3s ease, opacity 0.3s;
+    opacity: 0.9;     /* Leggera trasparenza iniziale */
+}
+
+/* Effetto al passaggio del mouse/tocco */
+.home-icon:hover {
+    transform: scale(1.1); /* Si ingrandisce leggermente */
+    opacity: 1;            /* Diventa totalmente opaco */
+}
+
